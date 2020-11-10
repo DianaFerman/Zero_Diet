@@ -1,0 +1,28 @@
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.label{
+    font-family: 'AkzidenzLight';
+    font-size: 16pt;
+}
+
+.section-btn{
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
+
+.section-buttons{
+    margin-top: 10em;
+}

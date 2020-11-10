@@ -1,0 +1,248 @@
+    <ion-content class="background">
+
+        <section>
+            <img src="../../../assets/img/APP ZERO DIET_slides-06.png">
+        </section>
+
+
+        <section class="section-title">
+            <h3 style="text-align: center;">
+                CUESTIONARIO SEMANAL
+            </h3>
+        </section>
+
+        <ion-slides [options]="sliderOptions">
+            <ion-slide>
+                <ion-grid>
+
+                    <section class="seccion">
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Fecha</ion-label>
+                                    <ion-input class="input"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+
+                    <section class="seccion">
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-text>
+                                        <ion-label position="floating" class="label-1">Cuantos días a la semana cumplió con el programa</ion-label>
+                                    </ion-text>
+                                    <ion-input class="input"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                    <section class="seccion">
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Peso de la anterior semana (kg)</ion-label>
+                                    <ion-input class="input"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+
+                    <section class="seccion">
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Peso actual (kg)</ion-label>
+                                    <ion-input class="input"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+
+                    <section class="seccion">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                    ¿Tomó agua?
+                    </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-label class="my-label">Si</ion-label>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-label class="my-label">No</ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+
+                    <section class="seccion">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                    ¿Qué cantidad?
+                    </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">Menos de 1 litro</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">1 litro y medio</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">Más de 2 litros</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+                </ion-grid>
+            </ion-slide>
+
+            <ion-slide>
+                <ion-grid>
+                    <section class="seccion">
+                      <ion-row>
+                        <section class="section-label">
+                          <label class="label">
+                            ¿Realizó alguna actividad fisica?
+                          </label>
+                        </section>
+                      </ion-row>
+                
+                      <ion-row>
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">Si</ion-label>
+                          </ion-item>
+                        </ion-col>
+                
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">No</ion-label>
+                          </ion-item>
+                        </ion-col>
+                      </ion-row>
+                    </section>
+              
+                    <section class="seccion">
+                      <ion-row>
+                        <section class="section-label">
+                          <label class="label">
+                            ¿Evacuó bien?
+                         </label>
+                        </section>
+                      </ion-row>
+                      
+                
+                      <ion-row>
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">Si</ion-label>
+                          </ion-item>
+                        </ion-col>
+                
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">No</ion-label>
+                          </ion-item>
+                        </ion-col>
+                      </ion-row>
+                    </section>
+              
+                    <section class="seccion">
+                      <ion-row>
+                        <section class="section-label">
+                          <label class="label">
+                              ¿Qué fue más evidente?
+                            </label>
+                          </section>
+                      </ion-row>
+                
+                      <ion-row>
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">Talla</ion-label>
+                          </ion-item>
+                        </ion-col>
+                
+                        <ion-col>
+                          <ion-item lines="none">
+                            <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                            <ion-label class="my-label">Peso</ion-label>
+                          </ion-item>
+                        </ion-col>
+                      </ion-row>
+                    </section>
+              
+                    <section class="seccion">
+                      <ion-row>
+                        <ion-col>
+                        <ion-item>
+                          <ion-label position="floating" class="label">¿Cúal fue su experiencia en esta semana?</ion-label>
+                          <ion-input class="input"></ion-input>
+                        </ion-item>
+                        </ion-col>
+                      </ion-row>
+                    </section>
+              
+                    <section class="seccion">
+                      <ion-row>
+                        <ion-col>
+                        <ion-item>
+                          <ion-label position="floating" class="label">Comentarios</ion-label>
+                          <ion-input class="input"></ion-input>
+                        </ion-item>
+                        </ion-col>
+                      </ion-row>
+                    </section>
+                    <section class="btn-section">
+                      <ion-button color="verde" expand="full" shape="round" class="btn" >Registrar</ion-button>
+                  </section>
+                  </ion-grid>
+            </ion-slide>
+        </ion-slides>
+
+
+
+
+    </ion-content>
+

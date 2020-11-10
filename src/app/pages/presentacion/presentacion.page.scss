@@ -1,0 +1,86 @@
+ion-slides {
+    height: 100%;
+  }
+
+.slide{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    border:hidden ;
+    border-bottom: none;
+    
+}
+
+.section-img{
+    margin-top: 13em;
+
+}
+
+.logo{
+
+    width: 80% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+
+}
+
+.title-1{
+    color:#288c51 ;
+    font-family: 'AkzidenzNormal';
+    font-size: 17pt;
+}
+
+.title-2{
+    color:#288c51 ;
+    font-family: 'AkzidenzLight';
+    font-size: 21pt;
+    margin-top: -0.5em;
+}
+
+h1{
+    color:#5B6670;
+    font-family: 'AkzidenzLight';
+    font-size: 14pt;
+}
+
+.section-txt{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+
+.section-img2{
+
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+.diagrama{
+
+    width: 100% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+
+}
+
+.comida{
+
+    width: 100% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+
+}
+
+.title{
+    color:rgb(124, 200, 94);
+    font-family: 'AkzidenzLight';
+    font-size: 16pt;
+}

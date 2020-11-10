@@ -1,0 +1,56 @@
+.subtitle {
+    color: #288c51;
+    font-family: 'AkzidenzNormal';
+    font-size: 10pt;
+}
+
+.title {
+    color: rgb(124, 200, 94);
+    font-family: 'AkzidenzLight';
+}
+
+.title-product {
+    color: #288c51;
+    font-family: 'AkzidenzLight';
+    font-size: 13pt;
+}
+
+.h1 {
+    color: #5B6670;
+    font-family: 'AkzidenzLight';
+    font-size: 12pt;
+}
+
+.label {
+    font-family: 'AkzidenzLight';
+    font-size: 13pt;
+}
+
+.label-show {
+    font-family: 'AkzidenzLight';
+    font-size: 12pt;
+}
+
+.section-btn {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.section-img {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+ion-content.background {
+    background-image: url('../../../assets/img/pantalla_back-01.png');
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}

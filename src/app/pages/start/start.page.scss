@@ -1,0 +1,159 @@
+/*PROPIEDADES DE SLIDES*/
+
+.slide{
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:hidden;
+    border-bottom: none;
+}
+
+.slide1{
+    background-image:url('../../../assets/img/APP\ ZERO\ DIET_slides-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:hidden ;
+    border-bottom: none;
+
+}
+
+.slide2{
+
+    background-image:url('../../../assets/img/APP\ ZERO\ DIET_slides-02.png');
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:hidden ;
+    border-bottom: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slide3{
+    background-image:url('../../../assets/img/APP\ ZERO\ DIET_slides-03.png');
+    display: block;
+    overflow: hidden;
+    background-size: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:hidden ;
+    border-bottom: none;
+
+}
+
+
+/*SECCION IMAGEN*/
+
+.section-img-1{
+    margin-top: 10em;
+    margin-bottom: 6px;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:hidden ;
+    border-bottom: none;
+
+}
+
+
+.section-img-3{
+    margin-top: 8em;
+    margin-bottom: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+/*IMAGEN*/
+.img-1{
+    width: 63% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+
+.img-3{
+    width: 95% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+/*SECCION LABEL*/
+
+.section-label11{
+    margin-left: 2.5em;
+    margin-right: 2em;
+}
+
+.section-labell2{
+    margin-top: 28em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.section-labell3{
+    margin-top: -0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+/*LABEL*/
+
+.label-txt{
+    font-family: 'AkzidenzMedium';
+    font-size: 15pt;
+    color:#1B5E20;
+}
+
+.label-txt2{
+    font-family: 'AkzidenzMedium';
+    font-size: 16pt;
+    color:#1B5E20;
+}
+
+.label-txt3{
+    font-family: 'AkzidenzMedium';
+    font-size: 16pt;
+    color:#1B5E20;
+}
+
+/*PRIMER BOTON*/
+.btn-primary{
+    height:45px;
+    font-family: 'AkzidenzMedium';
+    font-size: 15pt;
+  }
+
+/*SEGUNDO BOTON*/
+  .btn-2{
+    height:45px;
+    font-family: 'AkzidenzLight';
+    font-size: 14pt;
+    color: #E6EE9C;
+}
+
+.label{
+    font-family: 'AkzidenzLight';
+    font-size: 15pt;
+}
+
+.footer{
+    border:hidden ;
+    border-bottom: none;
+
+}

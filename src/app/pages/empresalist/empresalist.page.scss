@@ -1,0 +1,78 @@
+.section-title {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.h3 {
+    font-size: 27pt;
+    ;
+    font-weight: initial;
+    color: #288c51;
+    font-family: 'BebasRegular';
+}
+
+.section-list {
+    margin-top: 3.5em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.label-list {
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 13pt;
+}
+
+.select {
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 13pt;
+}
+
+.section-btn {
+    margin-top: 5em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.btn {
+    height: 40px;
+    font-family: 'AkzidenzLight';
+    font-size: 14pt;
+}
+
+ion-content.background {
+    background-image: url('../../../assets/img/pantalla_back-01.png');
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.input {
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 13pt;
+}
+
+.section-body {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.h3-letter {
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 13pt;
+}

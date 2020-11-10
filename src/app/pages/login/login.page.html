@@ -1,0 +1,37 @@
+<ion-app>
+    <ion-content class="background">
+
+        <section>
+            <img src="../../../assets/img/APP ZERO DIET_slides-10.png">
+        </section>
+
+        <section class="section-img">
+            <img src="../../../assets/img/icono_usuario.png" class="imagen">
+        </section>
+        <form #sesion ="ngForm" (ngSubmit)="onSubmit(sesion)">
+        <section class="section-input">
+            <ion-list lines="full">
+                <ion-item>
+                    <ion-label position="floating" class="label-txt">Correo</ion-label>
+                    <ion-input #correo="ngModel" name="correo" [(ngModel)]="sesion.correo" type="text" class="input"></ion-input>
+                </ion-item>
+            </ion-list>
+            <br>
+            <br>
+            <ion-list lines="full" class="ion-no-margin ion-no-padding">
+                <ion-item>
+                    <ion-label position="floating" class="label-txt">Contraseña</ion-label>
+                    <ion-input #password="ngModel" name="password" [(ngModel)]="sesion.password" class="input" type="password"></ion-input>
+                </ion-item>
+            </ion-list>
+        </section>
+        <section class="btn-section">
+            <ion-button color="verde" expand="full" shape="round" class="btn" type="submit">INGRESAR</ion-button>
+        </section>
+    </form>
+
+        <h3 class="label1" style="text-align: center;" (click)="presentacion()">
+            <u>¿Que es Zero Diet?</u>
+        </h3>
+
+    </ion-content>

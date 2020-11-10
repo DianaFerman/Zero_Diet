@@ -1,0 +1,28 @@
+<!-- <ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Dietas</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+
+<ion-content class="background">
+    <section class="section-header">
+        <img src="../../../assets/img/APP ZERO DIET_slides-05.png">
+    </section>
+
+    <section class="section-1">
+        <h1 style="text-align: center;" class="h1">Dieta semanal</h1>
+    </section>
+
+  
+       <ul class="lista_dias">
+           <li *ngFor="let dato of datos" (click)="presentPopover(dato.id)">
+            <div>
+            <i class="fas fa-calendar-alt"></i> <span>{{dato.dia_semana}}</span>
+            </div>
+            <i class="fas fa-plus-circle"></i>
+           </li>
+           
+       </ul>
+   
+</ion-content>

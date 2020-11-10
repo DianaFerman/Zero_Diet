@@ -1,0 +1,41 @@
+
+.h3-title{
+    font-size: 27pt;;
+    font-weight: initial;
+    color:#288c51 ;
+    font-family: 'BebasRegular';  
+}
+
+.section-title{
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.section-list{
+    margin-top: -1em;
+    margin-right: 1em;
+    margin-left: -0.5em;
+}
+
+.icon{
+    color:#288c51; 
+}
+
+.label{
+    font-family: 'AkzidenzNormal'; 
+    color: #5B6670;
+    font-size: 13pt;
+} 
+
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}

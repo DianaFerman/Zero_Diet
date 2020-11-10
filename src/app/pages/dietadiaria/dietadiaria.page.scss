@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+padding: 0;
+}
+.section-1{
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+
+.h1{
+    font-size: 27pt;;
+    font-weight: initial;
+    color:#288c51 ;
+    font-family: 'BebasRegular';
+}
+
+.select-list{
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 14pt;
+}
+
+.label{
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 14pt;
+}
+
+
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.lista_dias{
+    list-style: none;
+    padding: 20px;
+}
+.lista_dias li{
+border: 1px solid rgba(0,0,0,0.5);
+padding: 17px;
+border-radius: 5px;
+margin-bottom: 25px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.lista_dias li i{
+    color: green;
+    font-size: 18px;
+}
+.lista_dias li span{
+    margin-left: 20px;
+}

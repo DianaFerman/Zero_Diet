@@ -1,0 +1,338 @@
+<ion-content class="background">
+
+    <section>
+        <img src="../../../assets/img/APP ZERO DIET_slides-08.png">
+    </section>
+    <form #registro ="ngForm" (ngSubmit)="onSubmit(registro)">
+        <section class="section-title">
+            <h3 style="text-align: center;">Registro</h3>
+        </section>
+
+
+        <ion-slides [options]="sliderOptions">
+
+            <ion-slide>
+                <ion-grid fixed>
+
+                    <ion-row>
+                        <section class="section-label">
+                            <label class="label">
+                              ¿Es miembro de una empresa registrada?
+                            </label>
+                        </section>
+
+                    </ion-row>
+
+                    <ion-row>
+                        <ion-col>
+                            <ion-item lines="none">
+                                <ion-checkbox color="verde" class="check" [(ngModel)]="usuarioRegistro.empresa" name="empresa"></ion-checkbox>
+                                <ion-label class="my-label">{{usuarioRegistro.empresa ? 'SI' : 'NO'}}</ion-label>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+
+                <section class="section-body">  
+                    <ion-row *ngIf="usuarioRegistro.empresa">
+                        <ion-col>
+                            <ion-item>
+                                <ion-label class="label-list">
+                                    Empresa:
+                                </ion-label>
+                                <ion-select color="verde" no-border mode="ios" class="select">
+                                    <ion-select-option value="01">Empresa 1</ion-select-option>
+                                    <ion-select-option value="02">Empresa 2</ion-select-option>
+                                    <ion-select-option value="03">Empresa 3</ion-select-option>
+                                    <ion-select-option value="04">Empresa 4</ion-select-option>
+                                    <ion-select-option value="05">Empresa 5</ion-select-option>
+                                </ion-select>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-col *ngIf="usuarioRegistro.empresa">
+                        <ion-col>
+                            <ion-item>
+                                <ion-label position="floating" class="h3-letter">Clave de la Empresa* </ion-label>
+                                <ion-input class="input" type="text"></ion-input>
+                            </ion-item>
+                        </ion-col>
+                        <section class="section-body">
+                        </section>
+                    </ion-col>
+                </section>
+
+                    <section class="section-body">
+                        <ion-item>
+                            <ion-label position="floating" class="h3-letter">Nombre (s)</ion-label>
+                            <ion-input class="input" #nombre="ngModel" name="nombre" [(ngModel)]="registros.nombre" type="text"></ion-input>
+                        </ion-item>
+                    </section>
+
+                    <section class="section-body">
+                        <ion-item>
+                            <ion-label position="floating" class="h3-letter">Apellidos</ion-label>
+                            <ion-input class="input" #apellido="ngModel" name="apellido" [(ngModel)]="registros.apellido" type="text"></ion-input>
+                        </ion-item>
+                    </section>
+
+                    <section class="section-body">
+                        <ion-item>
+                            <ion-label position="floating" class="h3-letter">Correo</ion-label>
+                            <ion-input class="input" #correo="ngModel" name="correo" [(ngModel)]="registros.correo" type="text"></ion-input>
+                        </ion-item>
+                    </section>
+
+                    <section class="section-body">
+                        <ion-item>
+                            <ion-label position="floating" class="h3-letter">Contraseña</ion-label>
+                            <ion-input class="input"  #contrasena="ngModel" name="contrasena" [(ngModel)]="registros.contrasena" type="text"></ion-input>
+                        </ion-item>
+                    </section>
+                    <section class="section-body">
+                        <ion-item>
+                            <ion-label position="floating" class="h3-letter">Telefono</ion-label>
+                            <ion-input class="input" #movil="ngModel" name="movil" [(ngModel)]="registros.movil" type="text"></ion-input>
+                        </ion-item>
+                    </section>
+                </ion-grid>
+
+            </ion-slide>
+            <ion-slide>
+                <ion-grid fixed>
+
+
+                    <section class="seccion">
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Edad</ion-label>
+                                    <ion-input class="input" #edad="ngModel" name="edad" [(ngModel)]="registros.edad" type="text"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Peso</ion-label>
+                                    <ion-input class="input" #peso="ngModel" name="peso" [(ngModel)]="registros.peso" type="text"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item>
+                                    <ion-label position="floating" class="label">Estatura</ion-label>
+                                    <ion-input class="input" #estatura="ngModel" name="estatura" [(ngModel)]="registros.estatura" type="text"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                    <section class="section">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                                  ¿Realiza alguna actividad física?
+                                </label>
+                            </section>
+
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" class="check" [(ngModel)]="usuarioRegistro.actividadFisica" name="actividadFisica"></ion-checkbox>
+                                    <ion-label class="my-label">{{usuarioRegistro.actividadFisica ? 'SI' : 'NO'}}</ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+
+
+                        <ion-row *ngIf="usuarioRegistro.actividadFisica">
+                            <ion-col>
+                                <ion-item class="seccion">
+                                    <ion-label position="floating" class="label">Cual</ion-label>
+                                    <ion-input class="input" #actividad_fisica="ngModel" name="actividad_fisica" [(ngModel)]="registros.actividad_fisica" type="text"></ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row *ngIf="usuarioRegistro.actividadFisica">
+                            <section class="section-label">
+                                <label class="label">
+                                  ¿Con que frecuencia?
+                                </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row *ngIf="usuarioRegistro.actividadFisica">
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">1 día a la semana</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">1 a 3 días a la semana</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">5 a 7 días a la semana</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                    <section class="section">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                                  ¿Evacua bien?
+                                </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" class="check" [(ngModel)]="usuarioRegistro.evacuacion" name="evacuacion"></ion-checkbox>
+                                    <ion-label class="my-label">{{usuarioRegistro.evacuacion ? 'SI' : 'NO'}}</ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row *ngIf="usuarioRegistro.evacuacion">
+                            <section class="section-label">
+                                <label class="label">
+                                  ¿Con que frecuencia?
+                                </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row *ngIf="usuarioRegistro.evacuacion">
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">1 vez al día</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">2 veces al día</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+
+                            <ion-col size="4">
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" checked slot="start" class="check"></ion-checkbox>
+                                    <ion-text>
+                                        <h1 class="my-label">3 o más veces al día</h1>
+                                    </ion-text>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                    </section>
+                </ion-grid>
+
+            </ion-slide>
+            <ion-slide>
+                <ion-grid fixed>
+                    <section class="section">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                                  ¿Tiene algún padecimiento?
+                                </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" class="check" [(ngModel)]="usuarioRegistro.padecimiento" name="padecimiento"></ion-checkbox>
+                                    <ion-label class="my-label">{{usuarioRegistro.padecimiento ? 'SI' : 'NO'}}</ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                    <section class="section" *ngIf="usuarioRegistro.padecimiento">
+                        
+
+                        <ion-row>
+                            <ion-col>
+                                <section class="seccion-2">
+                                    <ion-item>
+                                        <ion-label position="floating" class="label">Especifique cual</ion-label>
+                                        <ion-input class="input"></ion-input>
+                                    </ion-item>
+                                </section>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                    <section class="section">
+                        <ion-row>
+                            <section class="section-label">
+                                <label class="label">
+                                    ¿Toma algun medicamento
+                                </label>
+                            </section>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col>
+                                <ion-item lines="none">
+                                    <ion-checkbox color="verde" [(ngModel)]="usuarioRegistro.medicamento" name="medicamento" class="check"></ion-checkbox>
+                                    <ion-label class="my-label">{{usuarioRegistro.medicamento ? 'SI' : 'NO'}}</ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </section>
+
+                        
+                        <section class="section" *ngIf="usuarioRegistro.medicamento">
+                            <ion-row>
+                                <ion-col>
+                                    <section class="seccion-2">
+                                        <ion-item>
+                                        <ion-label position="floating" class="label">¿Cúal?</ion-label>
+                                            <ion-input class="input"></ion-input>
+                                        </ion-item>
+                                    </section>
+                                </ion-col>
+                            </ion-row>
+                        </section>
+
+                    
+                    <section class="btn-section">
+                        <ion-button color="verde" expand="full" shape="round" class="btn" type="submit">Registrar</ion-button>
+                    </section>
+                </ion-grid>
+            </ion-slide>
+        </ion-slides>
+    </form>
+</ion-content>

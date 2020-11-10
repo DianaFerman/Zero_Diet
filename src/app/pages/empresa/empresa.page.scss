@@ -1,0 +1,53 @@
+.seccion{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.section-btn{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+
+.h3{
+    font-size: 27pt;;
+    font-weight: initial;
+    color:#288c51 ;
+    font-family: 'BebasRegular';
+       
+}
+.btn-primary{
+    height:45px;
+    font-family: 'AkzidenzMedium';
+    font-size: 15pt;
+  }
+
+/*SEGUNDO BOTON*/
+  .btn-2{
+    height:45px;
+    font-family: 'AkzidenzLight';
+    font-size: 14pt;
+    color: #E6EE9C;
+}
+
+.label{
+    font-family: 'AkzidenzLight';
+    font-size: 15pt;
+}
+
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}

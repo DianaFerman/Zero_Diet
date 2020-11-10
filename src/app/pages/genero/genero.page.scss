@@ -1,0 +1,63 @@
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.section-h1{
+    margin-top:1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
+.h1-txt{
+    font-family: 'BebasRegular';
+    font-size: 25.5pt;
+    color:#1B5E20;
+}
+
+
+.img-woman{
+    width: 60% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+.img-man{
+    width: 60% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+.section-img{
+    margin-top:1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 1.5em;
+}
+
+.h1-gen{
+    font-family: 'AkzidenzLight';
+    font-size: 12pt;
+    color:#1B5E20;
+    margin-top: 0em;
+}
+
+.label1 {
+    margin-top: 2em;
+    font-family: 'AkzidenzNormal';
+    color: #5B6670;
+    font-size: 11pt;
+    color: #288c51;
+}

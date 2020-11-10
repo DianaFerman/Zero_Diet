@@ -1,0 +1,64 @@
+
+.section-img{
+    margin-top: 2.5em;
+    margin-bottom: 0em;
+    margin-left:2em;
+    margin-right: 2em;
+
+}
+
+.section-input{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.btn{
+    height:40px;
+    font-family: 'AkzidenzLight';
+    font-size: 14pt;
+}
+
+
+.imagen{
+    width: 50% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+.label-txt{
+    font-family: 'AkzidenzNormal'; 
+    color: #5B6670;
+    font-size: 13pt;
+
+}
+
+.btn-section{
+    margin-top: 4.5em;
+    margin-bottom: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.input{
+    font-family: 'AkzidenzNormal'; 
+    color: #5B6670;
+    font-size: 13pt;
+}
+
+

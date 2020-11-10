@@ -1,0 +1,42 @@
+<ion-content class="background">
+    <section>
+        <img src="../../../assets/img/APP ZERO DIET_slides-04.png">
+    </section>
+
+    <section class="section-h1">
+        <ion-grid>
+            
+
+            <ion-row>
+                <ion-col>
+                    <h1 class="h1">
+                        Tu índice de masa corporal es: <span class="spa">{{IMC}}</span>
+                    </h1>
+                </ion-col>
+            </ion-row>
+
+            <ion-row>
+                <ion-col>
+                    <h1 class="h1">
+                        Tu peso ideal es:  <span class="spa">{{PesoIdeal}}</span>
+                    </h1>
+
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </section>
+
+    <section class="section-img">
+        <h1 style="text-align: center;" class="sub-title">
+            Tabla de la OMS
+        </h1>
+        <img src="../../../assets/img/tabla IMC-23.png" class="img-table">
+    </section>
+
+
+    <section class="btn-section">
+        <ion-button color="verde" expand="full" shape="round" class="btn" (click)="siguiente()">SIGUIENTE</ion-button>
+    </section>
+
+
+</ion-content>

@@ -1,0 +1,23 @@
+
+<ion-content class="background">
+
+  <section>
+    <img src="../../../assets/img/APP ZERO DIET_slides-09.png">
+  </section>
+
+<section class="section-title">
+  <h1 class="h3-title" style="text-align:center;">
+    Lista de Pacientes
+  </h1>
+</section>
+
+<section class="section-list">
+  <ion-list>
+    <ion-item *ngFor="let usuario of usuarios" (click)="caracteristicas(usuario.id)" detail>
+      <ion-icon slot="start" name="person-circle-sharp" class="icon" style="font-size: 35px;"></ion-icon>
+      <ion-label class="label">{{usuario.nombre}}</ion-label>
+    </ion-item>
+  </ion-list>
+</section>
+
+</ion-content>

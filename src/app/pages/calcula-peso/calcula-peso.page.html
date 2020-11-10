@@ -1,0 +1,56 @@
+<ion-content class="background">
+
+  <section>
+    <img src="../../../assets/img/APP ZERO DIET_slides-07.png">
+  </section>
+  <form  #pesoIdeal="ngForm" (ngSubmit)="onSubmit(pesoIdeal)">
+  <section class="section-input">
+    <ion-grid>
+      <ion-row size="3">
+        <ion-col size="10">
+          <ion-item>
+            <ion-label position="floating" class="label-txt">¿Cuánto mides?</ion-label>
+            <ion-input class="input" #estatura="ngModel" name="estatura" [(ngModel)]="pesoIdeal.estatura"></ion-input>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <h1 class="input-h1">
+            <br>
+            cm.
+          </h1>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="10">
+          <ion-item>
+            <ion-label position="floating" class="label-txt">¿Cúal es tu peso actual?</ion-label>
+            <ion-input class="input" #pesoActual="ngModel" name="pesoActual" [(ngModel)]="pesoIdeal.pesoActual"></ion-input>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <section>
+            <h1 class="input-h1">
+              <br>
+              kg.
+             </h1>
+          </section>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+
+  </section>
+  <section class="btn-section">
+    <ion-button color="verde"  expand="full" shape="round" class="btn" type="submit">CONOCE TU PESO IDEAL</ion-button>
+  </section>
+</form>
+
+</ion-content>
+
+
+
+

@@ -1,0 +1,53 @@
+
+
+
+.title{
+    font-family:'AkzidenzLight';
+    color: #288c51;
+    font-size: 13pt;
+
+
+}
+.section-img{
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.section-st{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.img-user{
+    width: 50% !important;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+
+.label-subtitle{
+    font-family:'AkzidenzMedium';
+    color: #288c51;
+    font-size: 15pt;
+
+}
+ion-content.background{
+    background-image:url('../../../assets/img/pantalla_back-01.png') ;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ion-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
